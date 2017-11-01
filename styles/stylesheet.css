@@ -1,0 +1,87 @@
+body {
+  /* Change my background, and set global font family */
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    margin: 0em 4em;
+
+    width: 887px;
+}
+
+h1 {
+  font-size: 3rem;
+  color: mediumpurple;
+  text-align: center;
+  background-color: white;
+  padding: .3em 1em .1em;
+} /* change font family, color and size*/
+
+a:link {
+  color: white;
+  font-style: bold;
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+}
+/*
+.main-nav {
+  background-color: rgb(178, 153, 230);
+}
+*/
+.main-nav li {
+  /* Change background color, remove bullets, border on each individual nav elements. float links, center content within links, font color */
+  margin: 0;
+  padding: 1em 2.43em 1em 2.4em;
+  display: inline-block;
+  border-right: .2em solid mediumpurple;
+  background-color: rgb(161, 132, 225);
+  
+}
+
+ul.headernav li {float: left} 
+.secondnav li{
+  padding: .5em 1em;
+
+}
+
+aside {
+  /* clear float, background color, float */
+  clear: both;
+  float: left;
+  padding: 8em 2.7em 12em;
+  background-color: rgb(224, 214, 245);
+
+}
+
+article {
+/* background color, float to the right? */
+/*  background-color: gainsboro;*/
+
+}
+
+figure {
+/* figure */
+  margin: 3em 0 0 10.5em;
+  padding: 2.5em 7em;
+  background-color: lightgray;
+}
+
+/* figure, we want to center that using margin and */
+
+figcaption {
+  
+  text-align: center;
+/*  background-color: aqua;*/
+  margin: 2em 0 2em .5em;
+
+}
+footer {
+/*  images float left and centered on the page. */
+  clear: both;
+  background-color: white;
+  padding: 2em 15em;
+  
+}
+footer a{
+  padding: 2em;
+}
