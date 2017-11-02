@@ -15,14 +15,21 @@ h1 {
   padding: .3em 1em .1em;
 } /* change font family, color and size*/
 
+/* unvisited link */
 a:link {
   color: white;
   font-weight: bold;
   text-decoration: none;
 }
-a:visited {
-  color: white;
+
+a:hover {
+  color: skyblue;
 }
+/* visited link */
+a:visited {
+  color: springgreen;
+}
+
 /*
 .main-nav {
   background-color: rgb(178, 153, 230);
