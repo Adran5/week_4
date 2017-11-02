@@ -2,7 +2,7 @@ body {
   /* Change my background, and set global font family */
     font-family: Arial, Helvetica, sans-serif;
     background-color: black;
-    margin: 0em 4em;
+    margin: 0em 6em;
 
     width: 887px;
 }
@@ -17,7 +17,7 @@ h1 {
 
 a:link {
   color: white;
-  font-style: bold;
+  font-weight: bold;
   text-decoration: none;
 }
 a:visited {
@@ -52,7 +52,9 @@ aside {
   background-color: rgb(224, 214, 245);
 
 }
-
+h2 {
+  display: none;
+}
 article {
 /* background color, float to the right? */
 /*  background-color: gainsboro;*/
@@ -65,15 +67,11 @@ figure {
   padding: 2.5em 7em;
   background-color: lightgray;
 }
-
 /* figure, we want to center that using margin and */
 
 figcaption {
-  
   text-align: center;
-/*  background-color: aqua;*/
   margin: 2em 0 2em .5em;
-
 }
 footer {
 /*  images float left and centered on the page. */
