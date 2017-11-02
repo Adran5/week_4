@@ -60,6 +60,12 @@ article {
 /*  background-color: gainsboro;*/
 
 }
+/*
+
+figure img {
+  width: 350px;
+}
+change stirfry image*/
 
 figure {
 /* figure */
@@ -77,9 +83,13 @@ footer {
 /*  images float left and centered on the page. */
   clear: both;
   background-color: white;
-  padding: 2em 15em;
+  padding: 2em 20em;
   
 }
 footer a{
-  padding: 2em;
+  padding: 1.5em;
+}
+
+footer img {
+ height: 30px;
 }
