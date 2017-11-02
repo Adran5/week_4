@@ -3,8 +3,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: black;
     margin: 0em 6em;
-
-    width: 887px;
+    width: 888px;
 }
 
 h1 {
@@ -22,8 +21,12 @@ a:link {
   text-decoration: none;
 }
 
-a:hover {
+a:hover{
   color: skyblue;
+/*  padding: .5em;*/
+  border-bottom: 1px solid white;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  background: rgba(0,0,0,0.3);
 }
 /* visited link */
 a:visited {
